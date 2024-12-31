@@ -1,6 +1,6 @@
-# Nerfies
+# HapMotion
 
-This is the repository for HapMotion [HapMotion]().
+### This is the repository for HapMotion [HapMotion]().
 
 If you find Nerfies useful for your work please cite:
 ```
