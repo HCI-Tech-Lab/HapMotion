@@ -1,6 +1,6 @@
 # HapMotion
 
-### This is the repository for HapMotion [HapMotion]().
+### This is the repository for [HapMotion]().
 
 If you find HapMotion useful for your research please cite:
 ```
