@@ -2,7 +2,7 @@
 
 ### This is the repository for HapMotion [HapMotion]().
 
-If you find Nerfies useful for your work please cite:
+If you find HapMotion useful for your research please cite:
 ```
 @article{jung2024hapmotion,
   title={HapMotion: motion-to-tactile framework with wearable haptic devices for immersive VR performance experience},
