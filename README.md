@@ -1,14 +1,18 @@
 # Nerfies
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository for HapMotion [HapMotion]().
 
 If you find Nerfies useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{jung2024hapmotion,
+  title={HapMotion: motion-to-tactile framework with wearable haptic devices for immersive VR performance experience},
+  author={Jung, Kyungeun and Kim, Sangpil and Oh, Seungjae and Yoon, Sang Ho},
+  journal={Virtual Reality},
+  volume={28},
+  number={1},
+  pages={13},
+  year={2024},
+  publisher={Springer}
 }
 ```
 
