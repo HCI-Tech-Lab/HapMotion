@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="DESCRIPTION META TAG">
+    <meta property="og:title" content="HapMotion" />
+    <meta property="og:description" content="motion-to-tactile framework with wearable haptic devices for immersive VR performance experience" />
+    <meta property="og:url" content="https://hcitech.org/" />
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/images/teaser.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+
+    <meta name="twitter:title" content="HapMotion">
+    <meta name="twitter:description" content="motion-to-tactile framework with wearable haptic devices for immersive VR performance experience">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/teaser.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="HapMotion,Rendering Framework, Haptics, Wearables">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>HapMotion: motion-to-tactile framework with wearable haptic devices for immersive VR performance experience</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">HapMotion: Motion-to-Tactile Framework with Wearable Haptic Devices for Immersive VR Performance Experience</h1>
+                        <div class="is-size-5 publication-authors">
+                            <!-- Paper authors -->
+                            <span class="author-block"> <a href="https://kyungeun.xyz" target="_blank">Kyungeun Jung<small><sup>1</sup></small></a>,</span>
+                            <span class="author-block"> <a href="https://kuaicv.com/" target="_blank"><small>Sangpil Kim<sup>2</sup></small></a>,</span>
+                            <span class="author-block"> <a href="https://lokilike.netlify.app/about/" target="_blank"><small>Seungjae Oh<sup>3</sup></small></a>,</span>
+                            <span class="author-block"> <a href="https://sanghoy.com/" target="_blank">Sang Ho Yoon<small><sup>1</sup></small></a></span>
+                        </div>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">
+                                <small><sup>(1)</sup></small>KAIST&nbsp&nbsp&nbsp&nbsp&nbsp<small><sup>(2)</sup></small>Korea University&nbsp&nbsp&nbsp</sup><sup>(3)</sup></small>KyungHee University</sup>
+                                <br>Springer Nature Virtual Reality (Virtual Reality, 03, 2024)
+                                <br>🏆  People's Choice Best Demo Award (UIST, 2023)
+                            </span>
+                            <!--<span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>-->
+                        </div>
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <!-- Arxiv PDF link -->
+                                <span class="link-block">
+                                    <a href="static/pdfs/HapMotion.pdf" target="_blank"
+                                       class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                        <span>Paper (19.9 MB)</span>
+                                    </a>
+                                </span>
+
+                                <!-- Supplementary PDF link -->
+                                <span class="link-block">
+                                    <a href="static/pdfs/HapMotion.pdf" target="_blank"
+                                       class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                        <span>Low-res Paper (3.78 MB)</span>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaser video-->
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <video poster="" id="tree" autoplay controls muted loop height="100%">
+                    <!-- Your video here -->
+                    <source src="static/videos/HapMotion_final.mp4"
+                            type="video/mp4">
+                </video>
+                <h2 class="subtitle has-text-centered">
+                    We propose HapMotion, a novel haptic rendering framework that translates the performer's motions into wearable vibrotactile feedback for an immersive VR performance experience.
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!-- End teaser video -->
+    <!-- Paper abstract -->
+    <section class="section hero is-light">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            We present a novel haptic rendering framework that translates the performer’s motions into wearable vibrotactile feedback for an immersive virtual reality (VR) performance experience. Here, we employ a rendering pipeline that extracts meaningful vibrotactile parameters including intensity and location. We compute these parameters from the performer’s upper-body movements which play a significant role in a dance performance. Therefore, we customize a haptic vest and sleeves to support vibrotactile feedback on the frontal and back parts of the torso and shoulders as well. To capture essential movements from the VR performance, we propose a method called motion salient triangle (MST). MST utilizes key skeleton joints’ movements to compute the associated haptic parameters. Our method supports translating both choreographic and communicative motions into vibrotactile feedback. Through a series of user studies, we validate the user preference for our method compared to the conventional motion-to-tactile and audio-to-tactile methods.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+    </section>
+    <!-- End paper abstract -->
+
+    <section class="hero teaser">
+        <div class="hero-body">
+            <br />
+            <br />
+            <div class="container has-text-centered">
+                <figure class="image">
+                    <img src="static/images/teaser.jpg" alt="MAIN TEASER IMAGE" style="display: inline-block; max-width: 100%;">
+                </figure>
+                <h2 class="subtitle">
+                    A novel haptic rendering algorithm to translate performer’s diverse motion context into haptic intensity and localization parameters.
+                </h2>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    
+    <!-- HapMotion Description -->
+    <section class="hero is-small is-light">
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="title">Motion-to-Tactile Framework</h2>
+
+                <h3 class="title is-4">Rendering with MST</h3>
+                <div class="content has-text-justified">
+                    <p>
+                        Previous researchers introduced a haptic effect using an RGB-image-based visual saliency map that works with audio data. In our case, we add 3D motion data to accommodate every movement of the performer into a meaningful haptic effect. We propose a motion salient triangle (MST) that aims to effectively translate characteristics of movements into vibrotactile haptic feedback. In this section, we describe our novel rendering design approach using the proposed MST. Our rendering approach using MST processes spatiotemporal parameters extracted from three-dimensional (3D) joint coordinates.
+                    </p>
+                </div>
+                <br />
+
+                <!-- Image carousel -->
+                <section class="hero is-small">
+                    <div class="hero-body">
+                        <div class="container">
+                            <div id="results-carousel" class="carousel results-carousel">
+                                <div class="item">
+                                    <!-- Your image here -->
+                                    <img src="static/images/Figure5.png" alt="MY ALT TEXT" height="200%" />
+                                    <!--<h2 class="subtitle has-text-centered">
+                            First image description.
+                        </h2>-->
+                                </div>
+                                <div class="item">
+                                    <!-- Your image here -->
+                                    <img src="static/images/Figure7a.png" alt="MY ALT TEXT" height="200%" />
+                                    <!--<h2 class="subtitle has-text-centered">
+                            Second image description.
+                        </h2>-->
+                                </div>
+                                <div class="item">
+                                    <!-- Your image here -->
+                                    <img src="static/images/Figure7b.png" alt="MY ALT TEXT" height="200%" />
+                                    <!--<h2 class="subtitle has-text-centered">
+                            Third image description.
+                        </h2>-->
+                                </div>
+                                <div class="item">
+                                    <!-- Your image here -->
+                                    <img src="static/images/Figure9a.png" alt="MY ALT TEXT" height="200%" />
+                                    <!--<h2 class="subtitle has-text-centered">
+                            Fourth image description.
+                        </h2>-->
+                                </div>
+                                <div class="item">
+                                    <!-- Your image here -->
+                                    <img src="static/images/Figure9b.png" alt="MY ALT TEXT" height="200%" />
+                                    <!--<h2 class="subtitle has-text-centered">
+                            Fourth image description.
+                        </h2>-->
+                                </div>
+                                <div class="item">
+                                    <!-- Your image here -->
+                                    <img src="static/images/Figure10.jpg" alt="MY ALT TEXT" height="200%" />
+                                    <!--<h2 class="subtitle has-text-centered">
+                            Fourth image description.
+                        </h2>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End image carousel -->
+
+            </div>
+        </div>
+    </section>
+    <!--End HapMotion Description -->
+    <!-- Paper poster -->
+    <section class="hero is-small is-light">
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="title">Poster</h2>
+
+                <iframe src="static/pdfs/UIST2023_Poster.pdf" width="100%" height="800">
+                </iframe>
+
+            </div>
+        </div>
+    </section>
+    <!--End paper poster -->
+    <!--BibTex citation -->
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+            <pre><code>
+        @article{jung2024hapmotion,
+          title={HapMotion: motion-to-tactile framework with wearable haptic devices for immersive VR performance experience},
+          author={Jung, Kyungeun and Kim, Sangpil and Oh, Seungjae and Yoon, Sang Ho},
+          journal={Virtual Reality},
+          volume={28},
+          number={1},
+          pages={13},
+          year={2024},
+          publisher={Springer}
+        }  
+      </code></pre>
+        </div>
+    </section>
+    <!--End BibTex citation -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+
+                        <p>
+                            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+                                Creative
+                                Commons Attribution-ShareAlike 4.0 International License
+                            </a>.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Statcounter tracking code -->
+    <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+    <!-- End of Statcounter Code -->
+
+</body>
+</html>
